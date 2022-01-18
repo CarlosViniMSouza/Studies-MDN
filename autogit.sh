@@ -1,4 +1,4 @@
 git add -A
-git commit -m "Next Topic: Omitting quotes around attribute values"
+git commit -m "Errors (syntax and code) -> fixed"
 git push
 git status
