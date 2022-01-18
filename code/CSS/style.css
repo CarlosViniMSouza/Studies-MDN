@@ -1,0 +1,27 @@
+pre {
+  color: #1b1b1b;
+  letter-spacing: -.0027777778rem;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
+  box-sizing: border-box;
+  border-left: 6px solid #005282;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0 0 24px;
+  max-width: 100%;
+  overflow: auto;
+  padding: 24px;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0px;
+}
+
+body {
+  font-family: "Arial";
+}

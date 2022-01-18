@@ -1,4 +1,4 @@
 git add -A
-git commit -m "Errors (syntax and code) -> fixed"
+git commit -m "CSS folder -> add | style.css -> incremented"
 git push
 git status

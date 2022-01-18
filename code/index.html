@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../code/CSS/style.css"/>
     <title>MDN Learn Resource</title>
 </head>
 <body>
@@ -12,10 +13,9 @@
 
 <p>My cat is very grumpy</p>
 
-
 <h4> If we wanted the text to stand by itself, we could specify that it is a paragraph by enclosing it in a paragraph (p) element:</h4>
 
-<p>My cat is very grumpy</p>
+<pre class="no-translate"> &lt;p&gt; My cat is very grumpy &lt;/p&gt; </pre>
 
 <h2>Anatomy of an HTML element</h2>
 
@@ -59,11 +59,10 @@
 
 <p>Consider the following example:</p>
 
-<!--
-<em>first</em><em>second</em><em>third</em>
-
-<p>fourth</p><p>fifth</p><p>sixth</p>
---->
+<pre class="no-translate">
+    &lt;em&gt;first&lt;/em&gt;&lt;em&gt;second&lt;/em&gt;&lt;em&gt;third&lt;/em&gt;
+    &lt;p&gt;fourth&lt;/p&gt;&lt;p&gt;fifth&lt;/p&gt;&lt;p&gt;sixth&lt;/p&gt;
+</pre>
 
 <em>first</em><em>second</em><em>third</em>
 
@@ -114,9 +113,9 @@
 <p>Edit the line below in the Input area to turn it into a link to your favorite website.</p>
 
 <p>
-    1 - Add the &lt;a&gt; element.
-    2 - Add the href attribute and the title attribute.
-    3 - Specify the target attribute to open the link in the new tab.
+    1 - Add the &lt;a&gt; element.<br>
+    2 - Add the href attribute and the title attribute.<br>
+    3 - Specify the target attribute to open the link in the new tab.<br>
 </p>
 
 <p>You'll be able to see your changes update live in the <i>Output</i> area. You should see a link — that when hovered over — displays the value of the title attribute, and when clicked, navigates to the web address in the href attribute. Remember that you need to include a space between the element name, and between each attribute.</p>
@@ -127,19 +126,9 @@
 
 <p>Sometimes you will see attributes written without values. This is entirely acceptable. These are called Boolean attributes. Boolean attributes can only have one value, which is generally the same as the attribute name. For example, consider the disabled attribute, which you can assign to form input elements. (You use this to disable the form input elements so the user can't make entries. The disabled elements typically have a grayed-out appearance.) For example:</p>
 
-<a type="text">&lt;input type="text" disabled="disabled"&gt;</a>
-
-<p>As shorthand, it is acceptable to write this as follows:</p>
-
-<!-- using the disabled attribute prevents the end user from entering text into the input box -->
-<label>
-    <input type="text" disabled>
-</label>
-
-<!-- text input is allowed, as it doesn't contain the disabled attribute -->
-<label>
-    <input type="text">
-</label>
+<pre class="no-translate">
+    &lt;a input type="text" disabled="disabled"&gt; &lt;/a&gt;
+</pre>
 
 </body>
 </html>
